@@ -15,7 +15,8 @@ describe('Survey Model', function () {
 
     it('Should return error message when input captcha does not matched.', function () {
         let surveyModel = new SurveyModel();
-        // let result = surveyModel.verifyCaptchaInput('random');zz
+        // let result = surveyModel.verifyCaptchaInput('random');
+        // adasdsad
         let result = null;
 
         expect(result).to.equal("Error! Captcha input doesn't matched.");
